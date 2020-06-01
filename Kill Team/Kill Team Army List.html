@@ -1,6 +1,4 @@
-<!DOCTYPE html>
 <html>
-<body>
 <style>
 body {
   background-image: url('./kill team background.jpg');
@@ -8,21 +6,57 @@ body {
   background-attachment: fixed;  
   background-size: cover;
 }
+.button {
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #ba0c00;
+}
+.button1:hover {
+  background-color: #ba0c00;
+  color: white;
+}
 </style>
+<body>
 <h1><font size="6" face="verdana" color="red">Army List</font></h1>
 <table style="width:100%">
   <tr>
-    <td><p><a HREF="./Adeptas Sororitas.html"><font size="4" face="verdana" color="white">Adeptas Sororitas</font></a><br><a HREF="./Adeptas Sororitas.rosz" download="Adeptas Sororitas.rosz"><font size="2" face="arial" color="red">DL</font></a></p></td>	
-    <td><p><a HREF="./Death Guard.html"><font size="4" face="verdana" color="white">Death Guard</font></a><br><a HREF="./Death Guard.rosz" download="Death Guard.rosz"><font size="2" face="arial" color="red">DL</font></a></p></td>	
-    <td><p><a HREF="./Death Watch.html"><font size="4" face="verdana" color="white">Death Watch</font></a><br><a HREF="./Death Watch.rosz" download="Death Watch.rosz"><font size="2" face="arial" color="red">DL</font></a></p></td>	
+    <td>
+	<button class="button button1" onclick="window.location.href='./Adeptas Sororitas.html'">Adeptas Sororitas</button>
+	</td>
+    <td>
+	<button class="button button1" onclick="window.location.href='./Death Guard.html'">Death Guard</button>
+	</td>
+    <td>
+	<button class="button button1" onclick="window.location.href='./Death Watch.html'">Death Watch</button>
+	</td>
   </tr>
   <tr>
-    <td><p><a HREF="./Drukhari.html"><font size="4" face="verdana" color="white">Drukhari</font></a><br><a HREF="./Drukhari.rosz" download="Drukhari.rosz"><font size="2" face="arial" color="red">DL</font></a></p></td>
-    <td><p><a HREF="./Eldar.html"><font size="4" face="verdana" color="white">Eldar</font></a><br><a HREF="./Eldar.rosz" download="Eldar.rosz"><font size="2" face="arial" color="red">DL</font></a></p></td>
-    <td><p><a HREF="./Necron.html"><font size="4" face="verdana" color="white">Necron</font></a><br><a HREF="./Necron.rosz" download="Necron.rosz"><font size="2" face="arial" color="red">DL</font></a></p></td>
+    <td>
+	<button class="button button1" onclick="window.location.href='./Drukhari.html'">Drukhari</button>
+	</td>
+    <td>
+	<button class="button button1" onclick="window.location.href='./Eldar.html'">Eldar</button>
+	</td>
+    <td>
+	<button class="button button1" onclick="window.location.href='./Necron.html'">Necron</button>
+	</td>
   </tr>
   <tr>
-    <td><p><a  HREF="./Thousand Sons.html"><font size="4" face="verdana" color="white">Thousand Sons</font></a><br><a HREF="./Thousand Sons.rosz" download="Thousand Sons.rosz"><font size="2" face="arial" color="red">DL</font></a></p></td>
+    <td>
+	<button class="button button1" onclick="window.location.href='./Thousand Sons.html'">Thousand Sons</button>
+	</td>
 </table>
 </body>
 </html>
