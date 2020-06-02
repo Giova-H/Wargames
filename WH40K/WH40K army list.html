@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <body>
-
 <style>
 body {
   background-image: url('./background.jpg');
@@ -9,45 +8,107 @@ body {
   background-attachment: fixed;  
   background-size: cover;
 }
+.button {
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #ba0c00;
+}
+.button1:hover {
+  background-color: #ba0c00;
+  color: white;
+}
+div.absolute {
+  position: absolute;
+  width: 50%;
+  bottom: 10px;
+}
 </style>
-<h1><font size="6" face="verdana" color="red">Army List</font></h1>
-
+<h1><font size="6" face="verdana" color="red">Army List</font> <button class="button button1" style="float: right;" onclick="window.location.href='/index.html'">Main Menu</button></h1>
 <table style="width:100%">
   <tr>
-    <td><p><a HREF="./Adeptas Sororitas.html"><font size="4" face="verdana" color="white">Adeptas Sororitas</font></a><br><a HREF="./Adeptas Sororitas.html" download="Adeptas Sororitas.html"><font size="2" face="arial" color="red">DL</font></a></p></td>	
-    <td><p><a HREF="./Adeptus Custodes.html"><font size="4" face="verdana" color="white">Adeptus Custodes</font></a><br><a HREF="./Adeptus Custodes.html" download="Adeptus Custodes.html"><font size="2" face="arial" color="red">DL</font></a></p></td>	
-    <td><p><a HREF="./Astra Militarum.html"><font size="4" face="verdana" color="white">Astra Militarum</font></a><br><a HREF="./Astra Militarum.html" download="Astra Militarum.html"><font size="2" face="arial" color="red">DL</font></a></p></td>	
+    <td>
+	<button class="button button1" onclick="window.location.href='./Adeptas Sororitas.html'">Adeptas Sororitas</button>
+	</td>	
+    <td>
+	<button class="button button1" onclick="window.location.href='./Adeptus Custodes.html'">Adeptus Custodes</button>
+	</td>	
+    <td>
+	<button class="button button1" onclick="window.location.href='./Astra Militarum.html'">Astra Militarum</button>
+	</td>	
   </tr>
   <tr>
-    <td><p><a HREF="./Chaos Marines.html"><font size="4" face="verdana" color="white">Chaos Marines</font></a><br><a HREF="./Chaos Marines.html" download="Chaos Marines.html"><font size="2" face="arial" color="red">DL</font></a></p></td>
-    <td><p><a HREF="./dark eldar.html"><font size="4" face="verdana" color="white">Dark Eldar</font></a><br><a HREF="./dark eldar.html" download="dark eldar.html"><font size="2" face="arial" color="red">DL</font></a></p></td>
-    <td><p><a HREF="./Eldar.html"><font size="4" face="verdana" color="white">Eldar</font></a><br><a HREF="./Eldar.html" download="Eldar.html"><font size="2" face="arial" color="red">DL</font></a></p></td>
+    <td>
+	<button class="button button1" onclick="window.location.href='./Chaos Marines.html'">Chaos Marines</button>
+	</td>
+    <td>
+	<button class="button button1" onclick="window.location.href='./dark eldar.html'">dark eldar</button></td>
+    <td>
+	<button class="button button1" onclick="window.location.href='./Eldar.html'">Eldar</button>
+	</td>
   </tr>
   <tr>
-    <td><p><a  HREF="./Grey Knights.html"><font size="4" face="verdana" color="white">Grey Knights</font></a><br><a HREF="./Grey Knights.html" download="Grey Knights.html"><font size="2" face="arial" color="red">DL</font></a></p></td>
-    <td><p><a  HREF="./Harlequins.html"><font size="4" face="verdana" color="white">Harlequins</font></a><br><a HREF="./Harlequins.html" download="Harlequins.html"><font size="2" face="arial" color="red">DL</font></a></p></td>
-    <td><p><a  HREF="./Necrons.html"><font size="4" face="verdana" color="white">Necrons</font></a><br><a HREF="./Necrons.html" download="Necrons.html"><font size="2" face="arial" color="red">DL</font></a></p></td>
+    <td>
+	<button class="button button1" onclick="window.location.href='./Grey Knights.html'">Grey Knights</button>
+	</td>
+    <td>
+	<button class="button button1" onclick="window.location.href='./Harlequins.html'">Harlequins</button>
+	</td>
+    <td>
+	<button class="button button1" onclick="window.location.href='./Necrons.html'">Necrons</button>
+	</td>
   </tr>
     <tr>
-    <td><p><a  HREF="./ork.html"><font size="4" face="verdana" color="white">ork</font></a><br><a HREF="./ork.html" download="ork.html"><font size="2" face="arial" color="red">DL</font></a></p></td>
-    <td><p><a  HREF="./Slaanesh.html"><font size="4" face="verdana" color="white">Slaanesh</font></a><br><a HREF="./Slaanesh.html" download="Slaanesh.html"><font size="2" face="arial" color="red">DL</font></a></p></td>
-    <td><p><a  HREF="./Space Marines.html"><font size="4" face="verdana" color="white">Space Marines</font></a><br><a HREF="./Space Marines.html" download="Space Marines.html"><font size="2" face="arial" color="red">DL</font></a></p></td>
+    <td>
+	<button class="button button1" onclick="window.location.href='./ork.html'">Ork</button>
+	</td>
+    <td>
+	<button class="button button1" onclick="window.location.href='./Slaanesh.html'">Slaanesh</button>
+	</td>
+    <td>
+	<button class="button button1" onclick="window.location.href='./Space Marines.html'">Space Marines</button>
+	</td>
   </tr>
   <tr>
-    <td><p><a  HREF="./Space Wolves.html"><font size="4" face="verdana" color="white">Space Wolves</font></a><br><a HREF="./Space Wolves.html" download="Space Wolves.html"><font size="2" face="arial" color="red">DL</font></a></p></td>
-    <td><p><a  HREF="./Tau.html"><font size="4" face="verdana" color="white">Tau</font></a><br><a HREF="./Tau.html" download="Tau.html"><font size="2" face="arial" color="red">DL</font></a></p></td>
-    <td><p><a  HREF="./Tyranids.html"><font size="4" face="verdana" color="white">Tyranids</font></a><br><a HREF="./Tzeench.html" download="Tzeench.html"><font size="2" face="arial" color="red">DL</font></a></p></td>
+    <td>
+	<button class="button button1" onclick="window.location.href='./Space Wolves.html'">Space Wolves</button>
+	</td>
+    <td>
+	<button class="button button1" onclick="window.location.href='./Tau.html'">Tau</button>
+	</td>
+    <td>
+	<button class="button button1" onclick="window.location.href='./Tyranids.html'">Tyranids</button>
+	</td>
   </tr>
   <tr>
-    <td><p><a  HREF="./Tzeench.html"><font size="4" face="verdana" color="white">Tzeench</font></a><br><a HREF="./Tzeench.html" download="Tzeench.html"><font size="2" face="arial" color="red">DL</font></a></p></td>
+    <td>
+	<button class="button button1" onclick="window.location.href='./Tzeench.html'">Tzeench</button>
+	</td>
     <td></td>
     <td></td>
   </tr>
     <tr>
-    <td><p><a  HREF="./turn chart.png"><font size="4" face="verdana" color="white">Turn Order</font></a><br><a HREF="./turn chart.png" download="turn chart.png"><font size="2" face="arial" color="red">DL</font></a></p></td>
+    <td>
+	<button class="button button1" onclick="window.location.href='./turn chart.png'">Turn Helper</button>
+	</td>
     <td></td>
     <td></td>
   </tr>
 </table>
+<div class="absolute">
+<button class="button button1" onclick="window.location.href='./turn chart.png'">Turn Helper</button>
+<button class="button button1" onclick="window.location.href='http://wahapedia.ru/wh40k8ed/the-rules/core-rules/'" style="float: right;">Rules</button>
+</div>
 </body>
 </html>
